@@ -295,3 +295,6 @@ docker-compose up -d
 - **Security**: Keycloak, OAuth 2.0
 - **Message Broker**: Apache Kafka
 - **Java Version**: 17
+
+## Postman Collection
+[EazyBank APIs](https://github.com/user-attachments/files/21329746/Microservices.postman_collection.json)
