@@ -1,0 +1,99 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    #active: native
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "git@github.com:shadangi54/eazybank-microservices-config.git"
+          default-label: "main" #Branch
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+          ignoreLocalSshSettings: true
+          private-key: |
+                       -----BEGIN RSA PRIVATE KEY-----
+                       MIIJKgIBAAKCAgEAlTPSOzaZyWE/RYRVV0i5RR0+5WSjQHFs1ebs7BjmMLqJcvug
+                       NNw7bEAs4Rfv59W3ztOeTvuZxb3OxCYFSBefBamYh1j3tEuJ/tQLDT9YUR//j9tL
+                       FHlMEyKWhrxOuKunf71tAdj3+WmrPdqeaP+iFuV0iQ5xBKSC4m55YkTKslWK/cW1
+                       mAIGnNtiJVxw2o+wHLSByYh57dR748EdPCNcqup+XFcOU+I2/EHH30Kr6XK1zEn2
+                       Gm2Iqn0KNFFj/91YqRiCLnZCSCiAdHBYNbp9tE/gLDTWZu++ccbYsZROTAFk74DY
+                       gy5VNSP7ghhyjOzJ11+MyV2MjONP50qVvQatTOYVQY/IxZDUkKqK2PHNT6/8RcxJ
+                       Y3QloKXw1wi+c9u9GdiL1RGSEYiWWogWZIUOCCUNOkO8bW1BTxUf4SlqexW14oRm
+                       PIl2cvZ7PEAaw/Ne4BTmhNf/gLk2HRo22r4PEkgbz4/74ezFboZs4zYlljRbpGGt
+                       JtpWm9Cr+kz2jx5bWLrI7UXVY1TIJ0qprk7Fjz3btFbj7YAIg/EBuhM9f07wDNUi
+                       3/jkaZmv+j4S6GNQ64uptpza/8o4nYoTuQUJRPJyygXaY18srHlyHH1RJAqyls6W
+                       iZADzV7RXyM26buO4YG9LaGpyR26vaaUi/0mlGQ7AqBCxw57cAEyTyB1T10CAwEA
+                       AQKCAgALvS2086ElQ13Qtg5niqpBB4GzrLeyJ0/H2J5wHllmIMHAZo8pTuFCAslF
+                       KzajR/ZpSHnJKb853AA7qz4jzkVNvb/peOosU6aCLTlytmGC0ytZVzNQuLvFOaXG
+                       6LlM4FHnxAX37Ok9xL7wuUBYxIbX7v+8lNf25IwDuBYcJuDH0ovYAZ6TB33GXksa
+                       OMFhq4fQtQcNIzbCAUN/cj8+7w1THpYIj9+UYVUFg0DFjnUA2MH4VngNhkFdde8V
+                       RLNt0ILcSGMIYszo6SmKKm4A9DEAZynHxfR52Ye4uKDDVVwqW2W5+P+P+qzrkcQv
+                       woVTaddLobyYT0ryqXks78+uNVXx0HhV5qsIx0l83b+Dhge0FD2ixaqPMuAQUgTm
+                       ycqq+Sh0rRH7ULy7e5DiFK2wNXxgY1x1X47nzBbfMkfFb0o9/I5AwVxzUy9vyRT7
+                       QSakrRXNCpjAEadrZx1jDVu8GutAOi/QHlNNFncbInAcPKSwPMfOqtx65yIGujLT
+                       a29sHF6iH/kEkQ3M2LjK66r+cJG6WjPoc7Ah+bPtXpNwOovk35Dw2fjLmQb4k7Zm
+                       pFqKKYtOlqevs2XRFlLlpPoMwdptXtfvQdR350+3sDlXb6FJlQDm0fQfeQXF5GRk
+                       2eP7vP81AveExYQl1/hnIoYIVM37wDcl4fXI9Z2SgkeZep24RQKCAQEAz2G22P29
+                       qW87Z4ex81MktqnaK6brIqPTrQWffrMmk9DnnxsJiCHtTG6erYmA5Rl75AEdmEFj
+                       mq5Oza3cMHJnuJ0aZV9C7tqBFrvazv9ufHif/W0u5FfJSkoulXDOzThz7A1Pn7JU
+                       Elk4Q5ZiUhQtV4SHeuM4GuOnv4gZf8Fr4F+FHoI7O9BkmFNnyoDgrYugm1svjqPV
+                       0IcJoBBnqt1KuTtt4Avt55jGmyua3wrW24BANYDdZ4NQmEnnLdWis11+P/ftyiad 
+                       gQYJTaUK6T8uqQ8T9IimKLOzEjUJT5vPclTGnj5fyLvj+kOXYqQ//esciBy1Ec4W
+                       S8EgMHrHFq1zkwKCAQEAuC5mxNi6XxEOiQNjFyQOi4xswR7xhRgwuhp9uSMcgKHQ
+                       zlna8QzmxdwWmS0CLr77+XJIlzXlBG/aVzfppY94hceK7L2Pyiq7pkifi2RbjS8g
+                       er8ft2iDILQvhSX1ohAadQLIyA1HIidrjkHTJxzVok2uszsKr4QBix0ULIn5mRmS
+                       +ODoUSm5BX048vczKhi9AdAJzvT1jXxC3iqw9EbhfBz1qcIvbKKwUMSQ4dPc90zu
+                       S+9fNArjbxlk9gAB9+HdTnlumzR01k8RMXnXyjdmHelsgD6SThze3N9lruQvmji7  
+                       JIpijpgaQXT57wQpw8WX9JmGDNeb9HcENZAB3OfnTwKCAQEAtCY7M6bA8oYJAbe0
+                       Ex8f3noQZyk6S74rLLucwPCZy4CHJQTUs+hc/q99slynlt0bbYa2kcQD5aQUGsI0
+                       a/WGOq5m9rbZKyqvRvNrcbQc443Z1cnaGUxVNO7aJsF3NHkc4mrxx1WfiMzufnAN
+                       +yVB+ivLkSn/XAR1fYGaPQvmTWRM/KK/GAfAyz5xBE4OX1PS8gI1fuC95cbYyq5V
+                       j+1qcxy4Jw/V3AEwTi2D/Muqt8Vigdfu/XPqOFDCvWM/UjcebC1Q6PHAkwuOW1/K
+                       6bIUM5JAkIWAag0ouuFNtFUy0Svp2h9vD66Ara+3u13ZpRdvkqH1fYEchzQ+ZT7S
+                       4dVNdwKCAQEAtTGhFOMKZuBG5nAYmfl0/cCGdW9Vt9RWi5/oM6zhK4MGAxvPEvnY
+                       RqsA6GypCwgEqCDQXUI+LiFEMi3lhGUi8qmeeMz8mq1zsmEb5Gw0zS6hy2AfebYt
+                       2oype1oezvL8tESq9nRpmKYjX+5OJtptKaE2z0i0eHtrcUqIQFD05rOMLaBFrSNY
+                       zJem4RBkm3N+7juWiq3erPSkbCCfuZHJ3uo2nG1Xbo6W2r6msiRV7E0Y2keB55cW
+                       rIPVGVZkmVLw/3TjZXkzwGpExeHSczQRGDg97+Se1o38ilqUlHwUgKpzIb2qvBHT
+                       MrY78/Kqi9jmZ1Jp2FR9LwGveGpWCtdybQKCAQEAub3z4c7XOkbkLi1Qp/x8lUX/
+                       HWJPA7NqQ+qbjdzO+I51xty7IK84zwN7xMliaZKxUmCz9m4c7JEQDD7mllpGExVg
+                       CdKrigLx68AgV2n+UnZhMo5dqsB3j0HYZF6XUVmQnIOSEz00sDgO4o4IQ9quFYQq
+                       d9hsSYcGdxgTmS05x741smPCQkobS10wOsw2jtW6ZPf5C86VCChKoLBCKXjyhALw
+                       HrMXCBR0HgXF79KV2BuY6ymDlQLIQLtrN6QtlX1D7kcTjJtDCpHdpoa9XxUvmPcm
+                       dNbD/MDAXYWbttP0xLobqrdrHdxuqiO6VNJLEbFFxrdPZe33z3iEN2u9+Js1Pg==
+                       -----END RSA PRIVATE KEY-----
+                       
+                     
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health: 
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true   
+
+  metrics:
+    tags:
+      application: ${spring.application.name} 
+        
+encrypt:
+  key: "pKB7VLgteuZeqBwpcTBy1kVEruL6Pmro"
+
+        #native:
+          #search-locations: "classpath:/config"
+          #search-locations: "file:///C://Users//shada//OneDrive//Documents//Spring_BOOT-Practice//UDEMY-MICROSERVICES//Section6//v2_spring-cloud-config//config"    
+      
+server:
+  port: 8071

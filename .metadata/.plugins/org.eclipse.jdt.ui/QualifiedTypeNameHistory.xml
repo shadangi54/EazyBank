@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.eazybytes.cards.controller.CardsController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="com.eazybytes.accounts.service.client.LoansFeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.eazybytes.accounts.service.client.CardsFeignClient"/>
+    <fullyQualifiedTypeName name="com.eazybytes.accounts.service.client.CardsFallback"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties.Http"/>
+    <fullyQualifiedTypeName name="io.netty.handler.codec.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.retry.annotation.Retry"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.thoughtworks.xstream.core.util.Pool.Factory"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JConfigBuilder"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.circuitbreaker.Customizer"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.BeanParam"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.gateway.filter.ratelimit.RedisRateLimiter"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.gateway.filter.ratelimit.KeyResolver"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.Mono"/>
+    <fullyQualifiedTypeName name="io.github.resilience4j.ratelimiter.annotation.RateLimiter"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.security.web.server.SecurityWebFilterChain"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.web.server.ServerHttpSecurity"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="java.beans.Customizer"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.Customizer"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.GrantedAuthority"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.jwt.Jwt"/>
+    <fullyQualifiedTypeName name="org.springframework.core.convert.converter.Converter"/>
+    <fullyQualifiedTypeName name="com.eazybytes.message.functions.MessageFunctions"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.stream.function.StreamBridge"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+</qualifiedTypeNameHistroy>
