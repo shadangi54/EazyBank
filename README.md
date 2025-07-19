@@ -108,7 +108,6 @@ This project implements a microservices architecture for a banking system with t
 
    ```bash
    git clone <repository-url>
-   cd Section14
    ```
 
 2. **Build all services**
